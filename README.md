@@ -4,7 +4,7 @@
 - Phantom-0.5B|1.8B|3.8B/7B has been released in 🤗 [Huggingface Models](https://huggingface.co/BK-Lee).
 - The demo code of Phantom-0.5B|1.8B|3.8B|7B has be updated in this repository.
 - Online demo for Phantom-0.5B|1.8B|3.8B|7B will be soon released in 🤗 Huggingface Spaces.
-- Phantom Triples Dataset for DPO-like concept will be soon released in 🤗 Huggingface Datasets.
+- Phantom Triples Dataset for DPO-like concept has been released in 🤗 [Huggingface Datasets](https://huggingface.co/datasets/BK-Lee/Phantom).
 - The code of fintuning Phantom-0.5B|1.8B|3.8B|7B will be soon updated in this repository.
 - Preprint of Phantom will be soon uploaded in ArXiv.
 
