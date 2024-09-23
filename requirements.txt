@@ -1,0 +1,24 @@
+transformers==4.37.2 # 1.8b, 3.bb, 7b: transformers (4.37.2) | 0.5b: transformers (more recent version)
+bitsandbytes
+accelerate
+openpyxl
+peft
+pandas
+pyarrow
+jsonlines
+wandb
+einops
+timm
+einops_exts
+sentencepiece
+shortuuid
+seaborn
+deepspeed
+matplotlib
+openai==0.28
+scikit-learn
+word2number
+opencv-python
+Rouge
+python-Levenshtein
+packaging
