@@ -1,4 +1,4 @@
-# <img src="figures/phantom_emoji.png" style="vertical-align: -15px;" :height="60px" width="60px">Phantom of Latent for Large Language and Vision Models
+# <img src="figures/phantom_emoji.png" style="vertical-align: -30px;" :height="80px" width="80px">Phantom of Latent for Large Language and Vision Models
 
 ## 📰 News
 - Phantom-0.5B|1.8B|3.8B/7B has been released in 🤗 [Huggingface Models](https://huggingface.co/BK-Lee).
