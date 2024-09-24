@@ -5,7 +5,7 @@
 - Preprint of Phantom has been uploaded in [ArXiv](https://arxiv.org/abs/2409.14713).
 - Phantom Triples Dataset for DPO-like concept has been released in 🤗 [Huggingface Datasets](https://huggingface.co/datasets/BK-Lee/Phantom).
 - The demo code of Phantom-0.5B|1.8B|3.8B|7B has been updated in [this repository](https://github.com/ByungKwanLee/Phantom/blob/master/demo.py).
-- Online demo for Phantom-0.5B|1.8B|3.8B|7B will be soon released in 🤗 Huggingface Spaces.
+- Online demo for Phantom-0.5B|1.8B|3.8B|7B will be soon released in 🤗 [Huggingface Spaces](https://huggingface.co/spaces/BK-Lee/Phantom).
 - The code of fintuning Phantom-0.5B|1.8B|3.8B|7B will be soon updated in this repository.
 
 Official PyTorch implementation code for realizing the technical part of *Phantom of Latent* to improve numerous vision language performances with efficient model size. This code is developed from scratch, where the model architecture and all configurations are inspired by [InternVL](https://github.com/OpenGVLab/InternVL?tab=readme-ov-file). I have been trying to improve the readibility and simplicity of the code, compared with [LLaVA](https://github.com/haotian-liu/LLaVA) which has relatively complexly structured code.
