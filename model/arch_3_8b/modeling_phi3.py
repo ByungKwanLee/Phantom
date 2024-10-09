@@ -898,7 +898,7 @@ class Phi3DecoderLayer(nn.Module):
         super().__init__()
 
         self.config = config
-        self.self_attn = PHI3_ATTENTION_CLASSES[config._attn_implementation](config, layer_idx=layer_idx)
+        self.self_attn = Phi3FlashAttention2(config, layer_idx=layer_idx)
 
         self.mlp = Phi3MLP(config)
         self.input_layernorm = Phi3RMSNorm(config.hidden_size, eps=config.rms_norm_eps)
@@ -1116,7 +1116,7 @@ class Phi3Model(Phi3PreTrainedModel):
         self.layers = nn.ModuleList(
             [Phi3DecoderLayer(config, layer_idx) for layer_idx in range(config.num_hidden_layers)]
         )
-        self._attn_implementation = config._attn_implementation
+        self._attn_implementation = 'flash_attention_2'
 
         self.norm = Phi3RMSNorm(config.hidden_size, eps=config.rms_norm_eps)
 
